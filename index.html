@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVIVA Insurance Certificate</title>
+    <link href="https://fonts.googleapis.com/css2?family=Verdana" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Verdana', sans-serif; /* Changed font family here */
+        }
+        .certificate-top-container {
+            font-size: 10.5px;
+            max-width: 750px;
+            margin: 0 auto;
+            padding: 5px;
+            background: white;
+            position: relative;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border: 1px solid black;
+            overflow: hidden;
+        }
+
+        /* Background Pattern */
+        .certificate-top-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            opacity: 0.1;
+            pointer-events: none;
+            background-image: url('logo.png');
+            background-repeat: repeat;
+            background-size: 50px 50px;
+            transform: rotate(-45deg) scale(1.5);
+            transform-origin: center center;
+
+        }
+        .certificate-bottom-container{
+            max-width: 750px;
+            font-size: 10.5px;
+            padding-top: 0px;
+            margin: 0 auto;
+            background: white;
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .logo img {
+            width: 120px;
+            height: auto;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+
+        .header-row {
+            display: flex;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .column1 {
+            width: 600px;
+        }
+        .column2 {
+            width: 150px;
+        }
+
+        .detail-row {
+            display: flex;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .label {
+            width: 450px;
+            flex-shrink: 0;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .indent {
+            margin-left: 0px;
+        }
+
+        .exclusions {
+            margin-top: 20px;
+        }
+
+        .exclusions-content {
+            margin-left: 0px;
+        }
+
+        .impounded {
+            margin-top: 20px;
+        }
+
+        .body-text {
+            line-height: 1.5;
+            font-size: 10.5px;
+        }
+
+        .body-text2 {
+            line-height: 1.5;
+            font-size: 10.5px;
+            margin: 20px 0;
+        }
+
+        .signature-section {
+            text-align: right;
+            margin-top: 0px;
+        }
+
+        .signature {
+            font-family: 'Dancing Script', cursive;
+            font-size: 28px;
+            margin: 20px 0;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .certificate-top-container {
+                padding: 20px;
+            }
+
+            .detail-row {
+                flex-direction: column;
+            }
+
+            .label {
+                width: 100%;
+                margin-bottom: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="">
+    <div class="logo">
+        <img src="logo.png" alt="AVIVA Logo">
+    </div>
+
+    <h1>CERTIFICATE OF MOTOR INSURANCE</h1>
+
+    <div class="certificate-top-container">
+
+        <div class="header-row">
+            <div class="column1"> <span>Our Ref: 43122313</span></div>
+            <div class="column2">
+                       <span>
+                    CERTIFICATE NUMBER<br>
+                    1631H000006031037130
+                </span>
+            </div>
+
+        </div>
+
+        <div class="detail-row">
+            <span class="label">1. DESCRIPTION OF VEHICLES</span>
+            <span>Registration Mark: H4 PFK</span>
+        </div>
+
+        <div class="detail-row">
+            <span class="label">2. NAME OF POLICYHOLDER</span>
+            <span>Uwais Nasir</span>
+        </div>
+
+        <div class="detail-row">
+            <span class="label">3. EFFECTIVE DATE OF COMMENCEMENT OF<br>INSURANCE FOR THE PURPOSES OF THE RELEVANT LAW</span>
+            <span>01 February 2025 at 16:45</span>
+        </div>
+
+        <div class="detail-row">
+            <span class="label">4. DATE OF EXPIRY OF INSURANCE</span>
+            <span>02 February 2025 at 16:45</span>
+        </div>
+
+        <div class="section">
+            <div style="font-weight: bold;">5. PERSONS OR CLASSES OF PERSONS ENTITLED TO DRIVE</div>
+            <div style="margin-top: 20px; margin-bottom: 20px;">Uwais Nasir</div>
+        </div>
+
+        <div class="section">
+            <div style="font-weight: bold; margin-bottom: 10px;">6. LIMITATIONS AS TO USE SUBJECT TO THE EXCLUSIONS BELOW</div>
+            <div class="indent">
+                <span>(a) Use for social, domestic or pleasure purposes.<br>
+                (b) Use for travel to and from a place of paid employment.<br>
+                (c) Use by the Policyholder in connection with the business of the Policyholder.</span>
+            </div>
+        </div>
+
+        <div class="exclusions">
+            <div style="margin-bottom: 20px;"><strong>EXCLUSIONS</strong></div>
+            <div class="exclusions-content">
+                <span>(a) Use for hiring of the vehicle, the carriage of passengers or goods for payment, the carriage of goods or property which does not belong to you as a business or for pleasure (fast food delivery).<br>
+                   (b) Use for any competitions, trial, performance test, race or trial of speed, including off road events whether between motor vehicles or otherwise, and irrespective of whether this takes place on any circuit or track, formed or otherwise and regardless of any statutory authorisation of any such event.<br>
+                    (c) Use to secure the release of a motor vehicle, which has been seized by, or on behalf of, any government or public authority.</span>
+            </div>
+        </div>
+
+        <div class="impounded">
+            IMPOUNDED VEHICLES : This Short Term Insurance Certificate cannot be used for the purpose of recovering an impounded vehicle
+        </div>
+    </div>
+
+    <div class="certificate-bottom-container">
+        <div class="body-text" style="margin-top: 10px; margin-bottom: 0px;">
+            I hereby certify that the Policy to which this Certificate relates satisfies the requirements of the relevant Law applicable in Great Britain, Northern Ireland, the Isle of Man, the Island of Guernsey, the Island of Jersey and the Island of Alderney.
+        </div>
+
+        <div class="signature-section">
+            <p>Signed on behalf of <br> Aviva Insurance Limited (Authorised Insurers)</p>
+            <div class="signature">Colm Holmes</div>
+            <p>Authorised Signatory<br>
+                Colm Holmes<br>
+                Global CEO General Insurance</p>
+        </div>
+
+        <div class="body-text2">
+            NOTE: For full details of the insurance cover reference should be made to the policy.
+            <br>
+            ADVICE TO THIRD PARTIES: Nothing contained in this Certificate affects your right as a Third Party to make a claim.
+        </div>
+
+        <div class="body-text2">
+            Any query relating to this insurance or any alteration should be referred to the Agent through whom the Insurance is arranged or
+            the Aviva Office - address obtainable from the policy.<br>
+            The number under the heading 'CERTIFICATE NUMBER' should be quoted in all correspondence
+        </div>
+
+        <div class="body-text2">
+            TRANSFER OF INTEREST This Certificate is not transferable.
+        </div>
+
+        <div class="body-text" style="font-weight: bold;">
+            THIS CERTIFICATE HAS BEEN PRODUCED ON A COMPUTER PRINTER AND IS NOT VALID IF ALTERED IN ANY WAY.
+        </div>
+
+        <div class="body-text2">
+            Aviva Insurance Limited. Registered in Scotland Number 2116.<br>
+            Registered Office: Pitheavlis, Perth PH2 0NH.<br>
+            Authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation
+            Authority
+        </div>
+
+
+    </div>
+
+</div>
+</body>
+</html>
