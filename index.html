@@ -166,19 +166,19 @@
 
         .schedule-title {
             text-align: right;
-            font-size: 13px;
+            font-size: 15px;
             font-weight: bold;
-            margin: 20px 0;
+            margin: 30px 0;
         }
 
         .info-section {
-            margin-bottom: 20px;
+            margin-bottom: 0px !important;
         }
 
         .info-row {
             display: flex;
             justify-content: space-between;
-            margin-bottom: 5px;
+            margin-bottom: 10px;
         }
 
         .info-label {
@@ -199,7 +199,7 @@
 
         .horizontal-divider {
             border-top: 2px solid #ccc;
-            margin: 15px 0;
+            margin: 5px 0;
         }
 
         .policy-section {
@@ -220,23 +220,47 @@
 
         .details-row {
             display: flex;
-            margin-bottom: 8px;
+            margin-bottom: 10px;
         }
 
         .details-label {
+            width: 190px;
+            font-weight: normal;
+        }
+        .vehicle-row {
+            display: flex;
+            margin-bottom: 15px;
+        }
+        .vehicle-row2 {
+            display: flex;
+            
+        }
+
+        .vehicle-label {
             width: 200px;
+            font-weight: bold;
+        }
+
+        .limitation-label {
+            width: 350px;
             font-weight: bold;
         }
 
         .vehicle-grid {
             display: grid;
             grid-template-columns: auto auto;
-            gap: 5px;
-            margin: 10px 0;
+            gap: 15px;
+            column-gap: 165px;
+        }
+        .vehicle-grid2 {
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 15px;
+            column-gap: 50px;
         }
 
         .vehicle-header {
-            font-weight: normal;
+            font-weight: bold;
         }
 
         .limitations-section {
@@ -250,7 +274,6 @@
         }
 
         .non-renewable {
-            margin-top: 15px;
             font-weight: bold;
         }
 
@@ -480,20 +503,20 @@
         </div>
     </div>
 
-    <div style="margin-bottom: 25px; font-weight: bold;">This schedule forms part of your policy</div>
+    <div style="margin-bottom: 25px; font-weight:bolder; font-size: 10.5px;">This schedule forms part of your policy</div>
 
-    <div class="details-row">
-        <span class="details-label">The Policy Holder</span>
+    <div class="vehicle-row">
+        <span class="vehicle-label">The Policy Holder</span>
         <span>Uwais Nasir</span>
     </div>
 
-    <div class="details-row">
-        <span class="details-label">Address</span>
+    <div class="vehicle-row">
+        <span class="vehicle-label">Address</span>
         <span>6 Hangleton Drive Birmingham B11 2QA</span>
     </div>
 
-    <div class="details-row" style="align-items: flex-start;">
-        <span class="details-label">Total Paid</span>
+    <div class="vehicle-row" style="align-items: flex-start;">
+        <span class="vehicle-label" style="margin-top: 20px;">Total Paid</span>
         <div>
             £124.64<br>
             The total paid includes:<br>
@@ -502,8 +525,8 @@
         </div>
     </div>
 
-    <div class="details-row">
-        <span class="details-label">Your Vehicle</span>
+    <div class="vehicle-row">
+        <span class="vehicle-label">Your Vehicle</span>
         <div class="vehicle-grid">
             <div class="vehicle-header">Make</div>
             <div class="vehicle-header">Model</div>
@@ -516,30 +539,38 @@
         </div>
     </div>
 
-    <div class="details-row">
-        <span class="details-label">Excess</span>
+    <div class="vehicle-row">
+        <span class="vehicle-label">Excess</span>
         <span>£2550.00</span>
     </div>
 
-    <div class="details-row">
-        <span class="details-label">Persons entitled to drive</span>
-        <span>Uwais Nasir Date Of Birth: 28/04/2003 Licence: (NASR004283U99PY )</span>
+    <div class="vehicle-row">
+        <span class="vehicle-label">Persons entitled to drive</span>
+        <div class="vehicle-grid2">
+            <div>Uwais Nasir <span style="font-weight: bold;">Date Of Birth:</span> 28/04/2003</div>
+            <div><span style="font-weight: bold;">Licence:</span> (NASR004283U99PY )</div>
+        </div>
+        
     </div>
 
+    
+
+
     <div class="limitations-section">
-        <div class="details-row">
-            <span class="details-label">Limitations as to use</span>
+        
+        <div class="vehicle-row" style="margin-top: 30px;">
+            <span class="limitation-label" style="margin-top: 5px;">Limitations as to use</span>
             <span>Use for social, domestic and pleasure purposes and business use by the Policyholder excluding the carriage of passengers or goods for hire or reward.</span>
         </div>
-
-        <div class="details-row" style="margin-top: 10px;">
-            <span class="details-label">Limitations as to use</span>
+    
+        <div class="vehicle-row2" style="margin-top: 30px;">
+            <span class="limitation-label" style="margin-top: 3px;">Limitations as to use</span>
             <span>Use for social, domestic and pleasure purposes and business use by the Policyholder excluding the carriage of passengers or goods for hire or reward.</span>
         </div>
-
-        <div class="details-row" style="margin-top: 10px;">
-            <span class="details-label">RAC Motor Legal Expenses Cover</span>
-            <span>Included. Refer to the separate RAC Motor Legal Expenses Policy Terms and Conditions for further information.</span>
+        
+        <div>
+            <span style="font-weight: bold;">RAC Motor Legal Expenses Cover</span>
+            <span>ncluded. Refer to the separate RAC Motor Legal Expenses Policy Terms and Conditions for further information.</span>
         </div>
     </div>
 
@@ -547,6 +578,8 @@
         If the information in this Schedule is incorrect or does not meet your requirements, please tell us at once.<br>
         You are reminded of the need to notify any facts that we would take into account in our assessment or acceptance of this insurance. Failure to disclose all relevant facts may invalidate your policy, or result in your policy not operating fully. You should keep a written record of any information you give to us.
     </div>
+
+    <div class="horizontal-divider"></div>
 
     <div class="non-renewable">
         This policy is not renewable.
