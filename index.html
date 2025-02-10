@@ -205,11 +205,17 @@
         .policy-section {
             display: flex;
             justify-content: space-between;
-            margin-bottom: 10px;
+        
+        }
+
+        .policy-section div {
+            width: 70%;
         }
 
         .policy-number {
+            width: 20%;
             text-align: right;
+            text-align-last: left;
         }
 
         .details-row {
@@ -218,8 +224,8 @@
         }
 
         .details-label {
-            width: 150px;
-            font-weight: normal;
+            width: 200px;
+            font-weight: bold;
         }
 
         .vehicle-grid {
@@ -359,6 +365,7 @@
             Authority
         </div>
 
+
     </div>
 
 </div>
@@ -464,16 +471,16 @@
 
     <div class="policy-section">
         <div>
-            <div>Type of policy</div>
-            <div>Dayinsure Short Term Insurance from Aviva</div>
+            <p style="font-weight: bold;">Type of policy</p>
+            <p>Dayinsure Short Term Insurance from Aviva</p>
         </div>
         <div class="policy-number">
-            <div>Policy Number</div>
-            <div>1631H000060431037130</div>
+            <p style="font-weight: bold;">Policy Number</p>
+            <p>1631H000060431037130</p>
         </div>
     </div>
 
-    <div style="margin: 15px 0;">This schedule forms part of your policy</div>
+    <div style="margin-bottom: 25px; font-weight: bold;">This schedule forms part of your policy</div>
 
     <div class="details-row">
         <span class="details-label">The Policy Holder</span>
